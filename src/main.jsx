@@ -21,7 +21,7 @@ const router = createBrowserRouter([
       {path: "/Contact", element: <Contact/>},
       {path: "/Wishlist", element: <Wishlist/>}
     ],
-    errorElement: <div>Page Not Found!</div>,
+    // errorElement: <div>Page Not Found!</div>,
   },
 ]);
 

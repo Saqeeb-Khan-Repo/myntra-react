@@ -15,7 +15,9 @@ const FetchItems = () => {
 
     dispatch(fetchStatusActions.markFetchingStarted());
 
-    fetch("http://localhost:8080/items", { signal })
+    fetch("https://backend-pcvc.onrender.com/items", {
+      signal,
+    })
       .then((res) => {
         if (!res.ok) {
           throw new Error(`HTTP error! status: ${res.status}`);
