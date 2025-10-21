@@ -1,5 +1,6 @@
 {
   "name": "3-myntra-react-clone",
+  "homepage": "https://Saqeeb-Khan-Repo.github.io/myntra-react/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,8 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "homepage": "https://Saqeeb-Khan-Repo.github.io/myntra-react"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.9.0",
