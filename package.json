@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "homepage": "https://Saqeeb-Khan-Repo.github.io/Frontend"
+    "homepage": "https://Saqeeb-Khan-Repo.github.io/myntra-react"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.9.0",
