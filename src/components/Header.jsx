@@ -14,7 +14,7 @@ const Header = () => {
         <Link to="/">
           <img
             className="myntra_home"
-            src="public\images\myntra_logo.webp"
+            src="myntra_logo.webp"
             alt="Myntra Home"
           />
         </Link>
