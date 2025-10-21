@@ -2,7 +2,7 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./routes/App";
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { RouterProvider, createHashRouter } from "react-router-dom";
 import Bag from "./routes/Bag";
 import Home from "./routes/Home";
 import { Provider } from "react-redux";
@@ -10,7 +10,7 @@ import myntraStore from "./store/index";
 import Contact from "./pages/Login/contact";
 import Wishlist from "./pages/Login/wishlist";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <App />,
