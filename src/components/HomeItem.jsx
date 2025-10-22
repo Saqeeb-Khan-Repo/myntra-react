@@ -9,7 +9,6 @@ const HomeItem = ({ item }) => {
 
   const bagItems = useSelector((store) => store.bag);
   const elementFound = bagItems.indexOf(item.id) >= 0;
-  console.log(item.id, elementFound);
 
   const dispatch = useDispatch();
 

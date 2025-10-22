@@ -3,6 +3,7 @@ import { FaBagShopping } from "react-icons/fa6";
 import { LuMessageSquareHeart } from "react-icons/lu";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
+import myntra_logo from "/images/myntra_logo.webp";
 
 const Header = () => {
   const bag = useSelector((store) => store.bag);
@@ -12,11 +13,7 @@ const Header = () => {
     <header className="header">
       <div className="logo_container">
         <Link to="/">
-          <img
-            className="myntra_home"
-            src="myntra_logo.webp"
-            alt="Myntra Home"
-          />
+          <img className="myntra_home" src={myntra_logo} alt="Myntra Home" />
         </Link>
       </div>
       <nav className="nav_bar">
