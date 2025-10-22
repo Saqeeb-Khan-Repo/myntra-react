@@ -1,6 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
+import "./Header.css";
 import App from "./routes/App";
 import { RouterProvider, createHashRouter } from "react-router-dom";
 import Bag from "./routes/Bag";
