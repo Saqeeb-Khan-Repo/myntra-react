@@ -1,151 +1,148 @@
-
 :root {
-    --myntra-pink: #ff3f6c;
-    --myntra-pink-hover: #ff527b;
-    --text-color: #282c3f;
-    --secondary-text-color: #696b79;
-    --border-color: #f0f0f0;
-    --placeholder-color: #a7a7a7;
-    --bag-count-color: #f16565;
+  --myntra-pink: #ff3f6c;
+  --myntra-pink-hover: #ff527b;
+  --text-color: #282c3f;
+  --secondary-text-color: #696b79;
+  --border-color: #f0f0f0;
+  --placeholder-color: #a7a7a7;
+  --bag-count-color: #f16565;
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 header {
-    display: flex;
-    background-color: #ffffff62;
-    height: 80px;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #b6b1b1;
-    box-shadow: 0 0 12px ;
-    width: 100%;
-    
+  display: flex;
+  background-color: #ffffff62;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #b6b1b1;
+  box-shadow: 0 0 12px;
+  width: 100%;
 }
 .myntra_home {
-    height: 45px;
-    &:active{
-      transform: scale(1.1);
-    }
+  height: 55px;
+  
+
 }
 .logo_container {
-    margin-left: 4%;
+  margin-left: 4%;
 }
 .action_bar {
-    margin-right: 4%;
-}/* Navigation Bar (Hidden on Mobile, Visible on Desktop) */
+  margin-right: 4%;
+} /* Navigation Bar (Hidden on Mobile, Visible on Desktop) */
 .nav_bar {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    flex-grow: 0;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-grow: 0;
 }
 
 .nav_bar a {
-    text-decoration: none;
-    color: var(--text-color);
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-    padding: 20px 0;
-    position: relative;
-    letter-spacing: .3px;
-    transition: color 0.1s ease-in-out;
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 20px 0;
+  position: relative;
+  letter-spacing: 0.3px;
+  transition: color 0.1s ease-in-out;
 }
 
 .nav_bar a:hover {
-    color: var(--myntra-pink-hover);
+  color: var(--myntra-pink-hover);
 }
 
 .nav_bar a:after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 4px;
-    background-color: var(--myntra-pink);
-    transform: scaleX(0);
-    transform-origin: center;
-    transition: transform 0.3s ease-in-out;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: var(--myntra-pink);
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease-in-out;
 }
 
 .nav_bar a:hover:after {
-    transform: scaleX(1);
+  transform: scaleX(1);
 }
 
 .nav_bar a sup {
-    color: var(--myntra-pink);
-    font-size: 10px;
-    font-weight: 700;
-    position: absolute;
-    top: 15px;
-    right: -15px;
+  color: var(--myntra-pink);
+  font-size: 10px;
+  font-weight: 700;
+  position: absolute;
+  top: 15px;
+  right: -15px;
 }
 
 /* Search Bar (Full on Desktop, Condensed on Mobile) */
 .search_bar {
-    display: flex;
-    align-items: center;
-    background-color: #f5f5f6;
-    height: 40px;
-    border-radius: 4px;
-    flex-grow: 1;
-    max-width: 450px;
-    margin: 0 30px;
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f6;
+  height: 40px;
+  border-radius: 4px;
+  flex-grow: 1;
+  max-width: 450px;
+  margin: 0 30px;
 }
 
 .search_icon {
-    color: var(--secondary-text-color);
-    padding: 10px;
-    font-size: 20px;
-    line-height: 20px;
+  color: var(--secondary-text-color);
+  padding: 10px;
+  font-size: 20px;
+  line-height: 20px;
 }
 
 .search_input {
-    border: none;
-    background-color: transparent;
-    flex-grow: 1;
-    outline: none;
-    padding: 0 10px 0 0;
-    font-size: 14px;
-    color: var(--text-color);
+  border: none;
+  background-color: transparent;
+  flex-grow: 1;
+  outline: none;
+  padding: 0 10px 0 0;
+  font-size: 14px;
+  color: var(--text-color);
 }
 
 .search_input::placeholder {
-    color: var(--placeholder-color);
+  color: var(--placeholder-color);
 }
 /* Action Bar (Profile, Wishlist, Bag) */
 .action_bar {
-    display: flex;
-    gap: 10px;
-    flex-shrink: 1;
+  display: flex;
+  gap: 10px;
+  flex-shrink: 1;
 }
 .action_container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-decoration: none;
-    color: var(--text-color);
-    font-size: 12px;
-    font-weight: 500;
-    padding: 0 5px;
-    transition: color 0.1s ease-in-out;
-    position: relative; /* Needed for bag count */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 12px;
+  font-weight: 500;
+  padding: 0 5px;
+  transition: color 0.1s ease-in-out;
+  position: relative; /* Needed for bag count */
 }
 
 .action_container:hover {
-    color: var(--myntra-pink-hover);
+  color: var(--myntra-pink-hover);
 }
 
 .action_container svg {
-    font-size: 24px;
-    margin-bottom: 3px;
-    display: block;
+  font-size: 24px;
+  margin-bottom: 3px;
+  display: block;
 }
 /* ----------------------------------- */
 /* --- MOBILE RESPONSIVE STYLES --- */
@@ -153,66 +150,66 @@ header {
 
 /* Apply changes when the screen width is 768px or less (typical tablet/mobile cutoff) */
 @media (max-width: 768px) {
-    .header {
-        height: 60px; /* Shorter header for mobile */
-        padding: 0 10px; /* Reduced side padding */
-        /* Change the flow to put more focus on logo and actions */
-        justify-content: flex-start;
-        gap: 15px;
-    }
+  .header {
+    height: 60px; /* Shorter header for mobile */
+    padding: 0 10px; /* Reduced side padding */
+    /* Change the flow to put more focus on logo and actions */
+    justify-content: flex-start;
+    gap: 15px;
+  }
 
-    .myntra_home {
-        height: 30px; /* Smaller logo */
-    }
+  .myntra_home {
+    height: 30px; /* Smaller logo */
+  }
 
-    /* Hide the entire text navigation bar */
-    .nav_bar {
-        display: none;
-    }
+  /* Hide the entire text navigation bar */
+  .nav_bar {
+    display: none;
+  }
 
-    /* Adjust Search Bar for Mobile */
-    .search_bar {
-        max-width: none; /* Allow it to fill space between logo/actions */
-        height: 35px; /* Shorter search bar */
-        margin: 0 5px; /* Reduced margins */
-        background-color: white; /* Often a white background on mobile Myntra for search */
-        border: 1px solid var(--border-color); /* Add a light border */
-        flex-grow: 1;
-        order: 3; /* Push the search bar to the right side of the main header flow */
-    }
+  /* Adjust Search Bar for Mobile */
+  .search_bar {
+    max-width: none; /* Allow it to fill space between logo/actions */
+    height: 35px; /* Shorter search bar */
+    margin: 0 5px; /* Reduced margins */
+    background-color: white; /* Often a white background on mobile Myntra for search */
+    border: 1px solid var(--border-color); /* Add a light border */
+    flex-grow: 1;
+    order: 3; /* Push the search bar to the right side of the main header flow */
+  }
 
-    .search_input {
-        /* On mobile, search bar often just shows placeholder and is shorter */
-        font-size: 13px;
-    }
+  .search_input {
+    /* On mobile, search bar often just shows placeholder and is shorter */
+    font-size: 13px;
+  }
 
-    .search_icon {
-        padding: 5px 10px;
-    }
+  .search_icon {
+    padding: 5px 10px;
+  }
 
-    /* Adjust Action Bar for Mobile */
-    .action_bar {
-        gap: 10px; /* Reduced gap between icons */
-        order: 4; /* Keep action icons on the right */
-        flex-shrink: 0;
-    }
+  /* Adjust Action Bar for Mobile */
+  .action_bar {
+    gap: 10px; /* Reduced gap between icons */
+    order: 4; /* Keep action icons on the right */
+    flex-shrink: 0;
+  }
 
-    .action_container {
-        /* Only show icon, hide the action name text */
-        font-size: 0; /* Hides 'Profile', 'Wishlist', 'Bags' text */
-        padding: 0 5px;
-    }
+  .action_container {
+    /* Only show icon, hide the action name text */
+    font-size: 0; /* Hides 'Profile', 'Wishlist', 'Bags' text */
+    padding: 0 5px;
+  }
 
-    .action_container svg {
-        font-size: 22px; /* Slightly smaller icons */
-        margin-bottom: 0; /* No margin since there's no text below */
-    }
+  .action_container svg {
+    font-size: 22px; /* Slightly smaller icons */
+    margin-bottom: 0; /* No margin since there's no text below */
+  }
 
-    .bag-item-count {
-        top: -3px; /* Re-adjust position due to smaller icon/header */
-        right: 0px;
-        font-size: 8px;
-        padding: 1px 4px;
-        min-width: 14px;
-    }
+  .bag-item-count {
+    top: -3px; /* Re-adjust position due to smaller icon/header */
+    right: 0px;
+    font-size: 8px;
+    padding: 1px 4px;
+    min-width: 14px;
+  }
 }
