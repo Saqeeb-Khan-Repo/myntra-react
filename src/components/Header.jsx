@@ -14,7 +14,7 @@ const Header = () => {
         <Link to="/">
           <img
             className="myntra_home"
-            src="https://www.pngall.com/wp-content/uploads/17/Myntra-Logo-Trendy-Fashion-PNG-thumb.png"
+            src="https://i.pinimg.com/736x/10/8f/fd/108ffd534d2076aa59babdb3b925438d.jpg"
             alt="Myntra Home"
           />
         </Link>
