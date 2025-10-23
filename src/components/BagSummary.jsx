@@ -1,3 +1,5 @@
+
+
 const BagSummary = ({ items }) => {
   const bagSummary = {
     totalItem: items.length,
@@ -39,7 +41,10 @@ const BagSummary = ({ items }) => {
         </div>
       </div>
       <button className="btn-place-order">
-        <div className="css-xjhrni">PLACE ORDER</div>
+        <div className="css-xjhrni">
+            PLaceHolder
+          
+        </div>
       </button>
     </div>
   );

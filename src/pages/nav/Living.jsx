@@ -1,0 +1,14 @@
+import Home from "../../routes/Home";
+
+const Living = () => {
+  return (
+    <>
+      <main>
+        <h1 className="category-title beauty">living Section</h1>
+        <img src="liv.jpg" alt="" className="living"/>
+      </main>
+      <Home />
+    </>
+  );
+};
+export default Living;

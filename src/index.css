@@ -19,7 +19,7 @@
   }
   .nav_bar a {
     flex-shrink: 1;
-     font-size: auto;
+    font-size: auto;
   }
   .header {
     flex-shrink: 1;
@@ -28,9 +28,9 @@
     flex-shrink: 1;
     font-size: auto;
   }
-  .action_container{
+  .action_container {
     flex-shrink: 1;
-     font-size: auto;
+    font-size: auto;
   }
   .search_bar {
     flex-shrink: 1;
@@ -418,4 +418,52 @@ a.action_container:link {
   z-index: 100;
   background-color: white;
   box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+.beauty {
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.women {
+  width: 100%;
+  flex-shrink: 1;
+  height: 50%;
+  max-height: 500px;
+  box-shadow: 0 0 12px rgba(149, 143, 143, 0.326);
+}
+.living {
+  width: 100%;
+  flex-shrink: 1;
+  height: 50%;
+  max-height: 500px;
+  box-shadow: 0 0 12px rgba(149, 143, 143, 0.326);
+}
+.men {
+  width: 100%;
+  flex-shrink: 1;
+  height: 50%;
+  max-height: 600px;
+  box-shadow: 0 0 12px rgba(215, 212, 212, 0.636);
+}
+.beu {
+  width: 100%;
+  flex-shrink: 1;
+  height: 50%;
+  max-height: 500px;
+  box-shadow: 0 0 12px rgba(149, 143, 143, 0.326);
+}
+.kids {
+  width: 100%;
+  flex-shrink: 1;
+  height: 50%;
+  max-height: 500px;
+  box-shadow: 0 0 12px rgba(149, 143, 143, 0.326);
+}
+.studio {
+  width: 100%;
+  flex-shrink: 1;
+  height: 50%;
+  max-height: 500px;
+  box-shadow: 0 0 12px rgba(149, 143, 143, 0.326);
 }

@@ -20,14 +20,14 @@ const Header = () => {
         </Link>
       </div>
       <nav className="nav_bar">
-        <a href="#">Men</a>
-        <a href="#">Women</a>
-        <a href="#">Kids</a>
-        <a href="#">Living</a>
-        <a href="#">Beauty</a>
-        <a href="#">
+        <Link to="/Men">Men</Link>
+        <Link to="/Women">Women</Link>
+        <Link to="/Kids">Kids</Link>
+        <Link to="/Living">Living</Link>
+        <Link to="/Beauty">Beauty</Link>
+        <Link to="/Studio">
           Studio <sup>New</sup>
-        </a>
+        </Link>
       </nav>
       <div className="search_bar">
         <span className="material-symbols-outlined search_icon">search</span>
