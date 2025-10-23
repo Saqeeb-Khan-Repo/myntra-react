@@ -5,7 +5,7 @@ const Men = () => {
     <>
       <main>
         <h1 className="category-title beauty">MEN Section</h1>
-        <img src="myntra.jpg" alt="" className="men"/>
+        <img src="MEN.JPG" alt="MEN.JPG" className="men" />
       </main>
       <Home />
     </>
