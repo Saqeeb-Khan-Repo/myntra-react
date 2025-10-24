@@ -6,7 +6,7 @@ const Studio = () => {
       <main>
         <h1 className="category-title beauty">Studio Section</h1>
         <img
-          src="public\images\STUDIO.jpg"
+          src="public\images\STUDIO.JPG"
           alt="STUDIO.JPG"
           className="studio"
         />
