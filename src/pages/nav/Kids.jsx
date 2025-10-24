@@ -5,7 +5,7 @@ const Kids = () => {
     <>
       <main>
         <h1 className="category-title beauty">Kids Section</h1>
-        <img src="KIDS.JPG" alt="" className="kids" />
+        <img src="public/images/KIDS.JPG" alt="kids" className="kids" />
       </main>
       <Home />
     </>

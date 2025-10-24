@@ -5,7 +5,7 @@ const Beauty = () => {
     <>
       <main>
         <h1 className="category-title beauty">Beauty Products</h1>
-        <img src="BEAUTY.JPG" alt="" className="beu" />
+        <img src="public/images/BEAUTY.JPG" alt="beauty" className="beu" />
       </main>
       <Home />
     </>

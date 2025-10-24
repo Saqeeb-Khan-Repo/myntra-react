@@ -5,7 +5,7 @@ const Women = () => {
     <>
       <main>
         <h1 className="category-title beauty">Women Section</h1>
-        <img src="WOMEN.JPG" alt="" className="women" />
+        <img src="public/images/WOMEN.JPG" alt="" className="women" />
       </main>
       <Home />
     </>
